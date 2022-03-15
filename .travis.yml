@@ -6,4 +6,4 @@ before_install:
   - docker build -t gweinhei/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true gweinhei/docker-react -- --coverage  
+  - docker run -e CI=true gweinhei/docker-react
